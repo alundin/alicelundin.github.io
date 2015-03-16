@@ -1,0 +1,141 @@
+.navbar {
+  background-color: white;
+  height: 80px;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav li {
+  padding-top: 15px;
+}
+
+div li {
+  display: inline;
+}
+
+#top {
+  font-weight: bold
+}
+
+#top:link {
+  color: black;
+}
+
+#top:visited {
+  color: black;
+}
+
+.jumbotron {
+  background: transparent url(../graphics/Bakgrund/bakgrund1.png) no-repeat bottom center scroll;
+  height: 1000px;
+  width: 100%;
+  position: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: block;
+}
+
+.intro-buttons {
+  display: inline;
+}
+
+header {
+  text-align: center;
+  color: white
+}
+
+header .container {
+  padding-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+header .intro-text {
+  display: block;
+  padding-top: 300px;
+}
+
+#greeting {
+  position: center;
+  padding-bottom: 40px;
+}
+
+#recruit {
+  content: url(../graphics/Knappar/knapp_registrera.png) no-repeat center;
+  position: center;
+  display: inline-block;
+  max-width: 16%;
+  padding-left: 6px; 
+}
+
+#recruit:hover {
+  content: url(../graphics/Knappar/knapp_registrera_hover.png);
+  position: center;
+  display: inline-block;
+  max-width: 16%;
+  padding-left: 6px; 
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../graphics/montserrat/Montserrat-Regular.otf);
+}
+
+#headline-e {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5%;
+}
+
+#description-e {
+  font-size: 18px;
+}
+
+.process {
+  background: url(../graphics/Bakgrund/bakgrund_blå_kort.png) no-repeat bottom center scroll;
+  position:absolute;
+  left:0px;
+  width:100%;
+  height:100%;
+  display: block;
+  padding-top: 40px;
+  margin-top: 15%;
+  padding-top: 10%;
+  margin-bottom: 10%;
+}
+
+#headline-r {
+  display: block;
+  margin-top: 0;
+  padding-top: 0;
+  color: white;
+  padding-left: 19.5%;
+}
+
+#description-r {
+  font-size: 14px;
+  color: white;
+}
+
+#register {
+  padding-left: 19%;
+  max-width: 70%;
+}
+
+
+#send {
+  background: url(../graphics/Knappar/knapp_skicka.png) no-repeat;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 43%;
+}
+
+#send:hover { 
+  background: url(../graphics/Knappar/knapp_skicka_hover.png) no-repeat;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 43%;
+}
+

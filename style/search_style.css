@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.navbar {
+  background-color: white;
+  height: 80px;
+}
+
+nav, img {
+  height: 50px;
+}
+
+#top {
+  margin-top: 15px;
+  font-weight: bold
+}
+
+#top:link {
+  color: black;
+}
+
+#top:visited {
+  color: black;
+}
+
+.container {
+  display: block;
+}
+
+.jumbotron {
+  background: url(../graphics/Bakgrund/bakgrund1.png) no-repeat bottom center scroll;
+  height: 1000px;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.intro-buttons {
+  display: inline;
+}
+
+.search-field {
+  display: block;
+  font-size: 50px;
+  text-align: left;
+    padding-left: 338px;
+  max-width:  90%
+}
+
+.form-group {
+    display: block;
+    max-width: 300px;
+    padding-left: 50px;
+    object-position: left;
+}
+
+header {
+  text-align: center;
+  color: white
+}
+
+#greeting {
+  padding-top: 400%;
+}
+
+
+#search {
+  content: url(../graphics/Knappar/knapp_sok.png);
+  height: 30px;
+  position: center;
+  display: inline-block;
+  padding-right: 39%
+}
+
+#search:hover {
+  content: url(../graphics/Knappar/knapp_sok_hover.png);
+  height: 30px;
+  position: center;
+  display: inline-block;
+  padding-right: 39%;
+}
+
+/*Sida för jobbsökande*/
+#jobsearch {
+  position: right;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-family:helvetica;
+}
+
+#lanDropDown {
+  color: black;
+  font-size: 18px;
+  width: 300px;
+  border-radius: 10px;
+  left: 0;
+}
+#yrkeDropDown {
+  color: black;
+  font-size: 18px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#drop-place {
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+#drop-prof {
+  display: inline-block;
+}
+
+#sokButton{
+  padding-left: 512px;
+}
+
+#addResult {
+  padding-left: 45%;
+}
+
+#searchList {
+  display: block;
+  text-align: left;
+  color: black;
+  padding-left: 15%;
+}
+
+#searchResult {
+  display: block;
+  position: absolute;
+  color: black;
+  padding-bottom: 10%;
+}
+
+#adResult {
+  display: block;
+  padding-top: 20%;
+  padding-right: 5%;
+}
+
