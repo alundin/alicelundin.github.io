@@ -71,15 +71,15 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container top-container">
             <div class="row">
            <!--   <img class="img-responsive" src="img/alice.png" alt=""> -->
                     <br><br>
                     <div class="intro-text">
                         <span class="name">Alice Lundin</span>
-                        <hr class="star-light">
+                        <hr class="star-light top-star">
                         <span class="skills">
-                            M.Sc. Student of Industrial Management & Innovation, 
+                            M.Sc. Student of Industrial Management & Innovation, <br>
                             B. Sc. of Media Technology & Engineering </span>
                         <br><br>
                     </div>
@@ -87,7 +87,23 @@
             </div>
         </div>
     </header>
-
+    <style type="text/css">
+        @media(min-width: 768px){
+            .top-container {
+            background: url("img/alice-perform.jpg"); 
+            background-repeat: no-repeat;
+            background-position: 70% 20%;
+            width: 100%; 
+            margin: 0; 
+            padding-bottom: 200px !important; 
+            background-attachment:fixed;
+            }
+            hr.top-star.star-light:after {
+                background-color: transparent;
+            }
+        }
+        
+    </style>
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
