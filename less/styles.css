@@ -112,12 +112,13 @@ h1.contentText:hover,
   background-color: #ffb3da;
   color: white;
   font-size: 1.2em;
+  text-align: center;
 }
 .study {
   padding: 20px;
-  padding-bottom: 0;
   margin-bottom: 30px;
   background-color: #fffeb3;
+  text-align: center;
 }
 .study h2,
 .study h3 {
