@@ -1,563 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
+    <title>Alice Lundin</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
 
-    <title>Alice Lundin</title>
-
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="less/styles.css" rel="stylesheet" />
 </head>
+<body>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">CV and portfolio</a>
+    <!-- Navigation bar -->
+    <div class="container navigation">
+        <nav class="row">
+            <div id="myName" class="col-xs-6">
+                ALICE LUNDIN
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">CV</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div id="topLinks" class="col-xs-6">
+                 <a href="pages/about.html">ABOUT ME </a>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container top-container">
-            <div class="row">
-           <!--   <img class="img-responsive" src="img/alice.png" alt=""> -->
-                    <br><br>
-                    <div class="intro-text">
-                        <span class="name">Alice Lundin</span>
-                        <hr class="star-light top-star">
-                        <span class="skills">
-                            M.Sc. Student of Industrial Management & Innovation, <br>
-                            B. Sc. of Media Technology & Engineering </span>
-                        <br><br>
-                    </div>
-              <!--  </div> -->
-            </div>
-        </div>
-    </header>
-    <style type="text/css">
-        @media(min-width: 768px){
-            .top-container {
-            background: url("img/alice-perform.jpg"); 
-            background-repeat: no-repeat;
-            background-size: cover; 
-            background-position: 80% 30%;
-            width: 100%; 
-            margin: 0; 
-            padding-bottom: 200px !important; 
-            background-attachment:fixed;
-            }
-            hr.top-star.star-light:after {
-                background-color: transparent;
-            }
-        }
-        
-    </style>
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioColl" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/collMock.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioIncognito" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/incogMock.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioPurga" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/purgaMock.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/quadMock.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <!--
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>CV</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h3>Education</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>M.Sc. Industrial Management & Innovation, Uppsala University, August 2015 – Present</strong> </p>
-                </div>
-                <div class="col-lg-4">
-                   This Masters programme provides a ground for making a career in management and innovation within technically intensive companies in different industries. It also gives a foundation for entrepreneurship and business design. 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>B.Sc. Media Technology & Engineering – Linköping University, August 2012 – Present</strong> </p>
-                </div>
-                <div class="col-lg-4">
-                    Hold a Bachelor's degree in Media Technology from Linköping University. Media Technology has an emphasis on programming, visualizations and computer graphics. 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h3>Experience</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>Front End Developer – Forefront Consulting Group, May 2015 - present</strong></p>
-                </div>
-                <div class="col-lg-4">
-                    Working 1-2 days a week as an IT consultant, front-end developing in different projects. The work includes
-                        <ul>
-                            <li>
-                                Agile development
-                            </li>
-                            <li>
-                                Developing on the EpiServer platform
-                            </li>
-                            <li>
-                                Programming in HTML and LESS
-                            </li>
-                        </ul>
-                        <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>Coach leader & board member – CoderDojo Norrköping, October 2014 - June 2015</strong></p>
-                </div>
-                <div class="col-lg-4">
-                    CoderDojo is an international network of programming clubs, “Dojos”, for children led by coaches, represented by a coach leader. The coach leader is responsible of 
-                        <ul>
-                            <li>
-                                Communicating with the coaches and pass it on to the rest of the management
-                            </li>
-                            <li>
-                                Head-hunting new coaches at the University by networking
-                            </li>
-                            <li>
-                                Improving the experience for the coaches by problem solving 
-                            </li>
-                        </ul>
-                        <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>Communicator – Mette, July 2014 - June 2015</strong></p>
-                </div>
-                <div class="col-lg-4">
-                    Mette is the female association for all Media Technology students. As the communicator I am responsible for
-                        <ul>
-                            <li>
-                                Handling communication towards the members, e.g. through social media
-                            </li>
-                            <li>
-                                Handling communication towards second parts; companies, other associations etc.
-                            </li>
-                        </ul>
-                        <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>Student ambassador – Linköping University, October 2012 – May 2015</strong></p>
-                </div>
-                <div class="col-lg-4">
-                    Representing Linköping University at school visits and university fairs all over Sweden. As a student ambassador I get to 
-                        <ul>
-                            <li>
-                                Promote and inform about Linköping University
-                            </li>
-                            <li>
-                                Hold lectures about studying, which require planning and rhetorical skills
-                            </li>
-                            <li>
-                                Participate in rhetoric training 
-                            </li>
-                        </ul>
-                        <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>Inspirational Lecturer – Ebersteinska Gymnasium, TeknikInspra, February 2015</strong></p>
-                </div>
-                <div class="col-lg-4">
-                    Held an inspirational lecture for girls 14-18 years old to encourage more girls to study technology. Talked about widening your comfort zone and acheving goals. Got practice in planning a lecture and rhetoric.
-                    <br><br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>Group Leader of Mentors – Linköping University, August 2014</strong></p>
-                </div>
-                <div class="col-lg-4">
-                    Managing a group of 18 mentors before and during the two weeks reception for new students at the Institute of Technology. I was responsible for
-                        <ul>
-                            <li>
-                                Handling communication between the board of the reception and the mentors
-                            </li>
-                            <li>
-                                Organizing meetings and other gatherings
-                            </li>
-                        </ul>
-                        <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p><strong>Chairman – 3Cant, July 2013 - July 2014</strong></p>
-                </div>
-                <div class="col-lg-4">
-                    Organized events such as the school prom, dinners and night clubs in Norrköping. Learned about
-                        <ul>
-                            <li>
-                                Communication in a large group, emphasize opinions of members
-                            </li>
-                            <li>
-                                Conflict handling and solving problems among people with different opinions 
-                            </li>
-                            <li>
-                                Organizing meetings and events 
-                            </li>
-                        </ul>
-                        <br>
-                </div>
-            </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h3>Awards</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p><strong>IT-girl of the year, Semi-finalist - Universum and Microsoft Corporation</strong></p>
-                    </div>
-                    <div class="col-lg-4">
-                        Nominated and chosen by a jury to advance to the semifinal for the award Student of the Year in the IT-girl category. The award goes to a dedicated IT-student with a passion for networking and entrepreneurship who inspires more girls to study IT.  <br><br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p><strong>Spotify’s Prize for Best Students, East Sweden Hack 2014</strong></p>
-                    </div>
-                    <div class="col-lg-4">
-                        Received the award “Best Students” after participating in East Sweden Hack. Read more about the development of the app Coll in my portfolio.   
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!-- Footer -->
-    <footer class="text-center" id="contact">
-        
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2>Contact Me</h2>
-                            <hr class="star-contact">
-                        </div>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Email</h3>
-                        <p>alicemarialundin@gmail.com</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Social activity</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/alice.lundin.7" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/fetttajt" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/in/alicelundin" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Uppsala<br>Sweden</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        November 2015
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-    </footer>
-
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+        </nav>
     </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioColl" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+    <!-- Main content area -->
+    <div class="container maincontent">
+        <div class="row">
+            <div class="col-xs-5 box">
+                <div class="contentBox" style="background-image:url('img/alice-perform.png')" onclick="location.href='pages/about.html'">
+                    <h1 class="contentText">ABOUT ME</h1>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Coll</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/collMock.png" class="img-responsive img-centered" alt="">
-                            <p>Coll was developed during the hackathon East Sweden Hack 2014 in Linköping, Sweden. It is an application that keeps track of your movements during the day by accessing the GPS in the phone. It categorises the movements and visualizes the users own carbon dioxide emissions, lets the user set goals to improve his/her carbon footprint and follows up on the development. Coll also suggests public transfers by the open data of Östgötatrafiken. <br><br>My main responibilities were developing the main idea, handling the JavaScript frontend programming and and planning the presentation.<br><a href="https://github.com/danielronnkvist/Coll">GitHub Repo</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Technical:
-                                    <strong>HTML, CSS, Less, JavaScript
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
+            <div class="col-xs-3 box">
+                <div class="contentBox" style="background-image:url('img/study3.png')" onclick="location.href='pages/studies.html'">
+                    <h1 class="contentText">STUDIES</h1>
                 </div>
+            </div>
+            <div class="col-xs-4 box">
+                <div class="contentBox" style="background-image:url('img/study.png')" onclick="location.href='pages/work.html'">
+                    <h1 class="contentText">WORK <br />WORK <br />WORK</h1>
+                </div>
+            </div>
+            <div class="col-xs-3 box">
+                <div class="contentBox" style="background-image:url('img/sushi.png')">
+                    <h1 class="contentText">MMM...</h1>
+                </div>
+            </div>
+            <div class="col-xs-5 box">
+                <div class="contentBox" style="background-image:url('img/school.png')" onclick="location.href='pages/achieve.html'">
+                    <h1 class="contentText">ACHIEVEMENTS</h1>
+                </div>
+            </div>
+            <div class="col-xs-4 box">
+                <div id="first" class="col-xs-12 contactBox"><p> EMAIL ME:    <u>alicemarialundin@gmail.com</u> </p></div>
+                <div id="second" class="col-xs-12 contactBox"><p> CALL ME:    +46 (0)701 49 42 40 </p></div>
+                <div id="third" class="col-xs-12 contactBox"><p> <a href="https://linkedin.com/in/alicelundin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://www.facebook.com/alice.lundin.7"><i class="fa fa-facebook-square"></i></a> <a href="https://twitter.com/fetttajt"><i class="fa fa-twitter-square"></i></a></p> </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioIncognito" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Incognito</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/incogMock.png" class="img-responsive img-centered" alt="">
-                            <p>Incognito was developed durin the 24 hour hackathon Hack for Sweden 2015 in Stockholm, Sweden. The website is a recruitment portal with a main vision to be neutral and non-discriminating. Open data from Arbetsförmedlingen is used to get job offers to start with, this makes the website useful from scratch. Applicants can sign up to be able to apply for jobs without attaching a photo or given name, but only competence. Recruiters, who possibly have a problem of always hiring "the same person" can contact applicants without knowing gender, age or etnicity  - only competence. Incognito aims to be an eye-opener to recruiters and a new, non-discriminating way to apply for jobs!<br><br>
-                                My main responibilities were connecting the open source data to the website through XML and JSON, and general frontend JavaScript programming.<br><a href="https://github.com/tkomstadius/kodknackarna">GitHub Repo</a><br><a href="https://www.youtube.com/watch?v=SsB9kbuqTHc&feature=youtu.be">Youtube demo</a></p>
-                                <ul class="list-inline item-details">
-                                    <li>Technical:
-                                        <strong>HTML, CSS, JavaScript
-                                        </strong>
-                                    </li>
-                                </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioPurga" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Purgastory</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/purgaMock.png" class="img-responsive img-centered" alt="">
-                            <p>Purgastory is an adventour game created in Unity3D during a project course about 3D graphics. The game starts off with the player dying and ending up between heaven and hell - in Purgatory. The player is then challanged in different ways, in two levels, where to end up. There is no "win" or "loose", it all depends on where the player wants to end up! <br><br>My main responsibilities were game design and functionality programming in C#.<br><a href="#">Not on GitHub yet..</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Technical:
-                                    <strong>Unity3D, C#, 3DStudioMax
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Quadcopter</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/quadMock.png" class="img-responsive img-centered" alt="">
-                            <p>This project was developed as part of a course in modelling and simulation. The simulation is based on the physics of an ideal quadcopter (a helicopter with 4 rotors), and can be manouvered with the keyboard. An PD-regulator is applied to keep the system stable. 
-
-                            <br>The simulation is primarly done in MATLAB and later implemented in WebGL. <br><br>
-                            My main responsibilities were calculating physics, converting MATLAB code into JavaScript and planning the presentation. <br>
-                            <br><a href="https://github.com/danielronnkvist/quadproject">GitHub Repo</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Technical:
-                                    <strong>MATLAB, WebGL, JavaScript
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
 
 </body>
-
 </html>

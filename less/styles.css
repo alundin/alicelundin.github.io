@@ -1,0 +1,158 @@
+﻿body {
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover,
+h1.contentText:hover,
+#myName {
+  text-decoration: none;
+  cursor: pointer;
+}
+.navigation {
+  transition: color linear 0.6s;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.navigation a {
+  color: rgba(0, 0, 0, 0.5);
+  transition: color linear 0.6s;
+}
+.navigation div#topLinks {
+  text-align: right;
+}
+.navigation:hover {
+  transition: all linear 0.6s;
+  color: rgba(0, 0, 0, 0.8);
+}
+.navigation:hover a {
+  color: rgba(0, 0, 0, 0.8);
+  transition: color linear 0.6s;
+}
+.maincontent {
+  height: 600px;
+}
+.maincontent .box,
+.maincontent .contactBox {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.maincontent .box {
+  height: 250px;
+}
+.maincontent .box .contactBox {
+  height: 70px;
+  opacity: 0.8;
+  transition: all linear 0.4s;
+}
+.maincontent .box #first {
+  background-color: rgba(255, 179, 218, 0.7);
+}
+.maincontent .box #second {
+  background-color: rgba(255, 254, 179, 0.7);
+}
+.maincontent .box #third {
+  background-color: rgba(179, 255, 216, 0.7);
+}
+.maincontent .contentBox {
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  opacity: 0.7;
+  transition: all linear 0.4s;
+}
+.maincontent .contentBox img {
+  height: 100%;
+}
+.maincontent .contentBox .contentText {
+  /*position: relative;
+            top: 90px;*/
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 48px;
+  opacity: 0;
+  transition: all linear 0.4s;
+}
+.maincontent .contentBox:hover,
+.maincontent .box .contactBox:hover {
+  transition: all linear 0.4s;
+  opacity: 1;
+}
+.maincontent .contentBox:hover .contentText,
+.maincontent .box .contactBox:hover .contentText {
+  opacity: 1;
+  transition: all linear 0.4s;
+}
+.maincontent .contentBox:hover {
+  cursor: pointer;
+}
+.maincontent .contactBox p {
+  color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.maincontent p i.fa {
+  color: rgba(0, 0, 0, 0.7);
+  transition: color linear 0.4s;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.maincontent p i.fa:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all linear 0.4s;
+}
+.aboutmeBox {
+  padding: 50px;
+  background-color: #ffb3da;
+  color: white;
+  font-size: 1.2em;
+}
+.study {
+  padding: 20px;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  background-color: #fffeb3;
+}
+.study h2,
+.study h3 {
+  margin-top: 0;
+}
+.study p {
+  font-size: 1.1em;
+  text-align: left;
+}
+.work {
+  background-color: rgba(179, 255, 216, 0.7);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.work h2,
+.work h3 {
+  margin-top: 0;
+}
+.work p {
+  font-size: 1.1em;
+  text-align: left;
+}
+.work .workYears {
+  text-align: center;
+}
+.achieve {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.achieve .achieveText {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 250px;
+}
+.achieve h2 {
+  margin-top: 0;
+}
