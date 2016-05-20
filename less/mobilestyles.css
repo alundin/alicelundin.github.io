@@ -1,0 +1,28 @@
+﻿@media (max-width: 767px) {
+  .navigation {
+    padding-bottom: 30px;
+  }
+  .maincontent .contentBox {
+    background-position: 25% 50%;
+  }
+  .maincontent .contentBox .contentText {
+    opacity: 1;
+    font-size: 28px;
+    top: 36%;
+  }
+  .maincontent .box {
+    height: 115px;
+  }
+  .maincontent .box .contactBox {
+    height: 40px;
+  }
+  .work .workYears h3 {
+    font-size: 16px;
+  }
+  .work .workYears h4 {
+    font-size: 14px;
+  }
+  .work p {
+    font-size: 0.9em;
+  }
+}
