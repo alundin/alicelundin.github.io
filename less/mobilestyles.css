@@ -1,6 +1,7 @@
 ﻿@media (max-width: 767px) {
   .navigation {
     padding-bottom: 30px;
+    padding-top: 20px;
   }
   .maincontent .contentBox {
     background-position: 25% 50%;
